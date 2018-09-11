@@ -1,0 +1,24 @@
+Laboratorio nro 1 
+Alumno: Flores Bellido Angel Jose
+-----------------------------------
+
+1. CREANDO UN PROYECTO CON LA ESTRUCTURA LARAVEL
+	-Vemos que extensiones tenemos --> extensiones.png
+	-Instalamos extensiones faltantes (mbstring, xml) --> extensionmbstring.png  extensionxml.png
+	-Creamos el proyecto --> instalacion.png
+	-Verificamos ejecutando la aplicacion --> laravelrunning.png
+-----------------------------------
+Obervaciones
+>Se hizo la instalcion de composer y php en una maquina con linux (Ubuntu 17).
+>Se trabajo con la version 5 de php, con otra version superior no se pudo cargar la aplicacion.
+>Puede que sea necesario darle permiso a la carpeta donde se inicia la aplicacion, en ete caso fue en /var/www/html/
+>Algunas extensiones de php no estan instaladas por defecto, esto puede causar algunos retrasos que se solucionan rapidamente.
+
+
+Conclusiones
+
+>Laravel es uno de los frameworks mas famosos y usados para PHP
+>Composer nos permite y noss ayuda a descargar paquetes desde un repositorio para agregarlo a nuestro proyecto
+>PHP 5.6 e una version etable para poder trabajar con el laboratorio
+>El comando create-project crea un nuevo proyecto, es necesario pasar como parámetros el vendor y package correspondiente.
+

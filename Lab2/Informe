@@ -1,0 +1,20 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+
+3. Probamos el link en el browser --> 
+
+EJERCICIO-1. --> ejercicio.png
+
+EJERCICIO-2.
+Los rasgos («traits» en inglés) son un mecanismo de reutilización de código en lenguajes de herencia simple, como PHP. El objetivo de un TRAIT es el de reducir las limitaciones propias de la herencia simple permitiendo que los desarrolladores reutilicen a voluntad conjuntos de métodos sobre varias clases independientes y pertenecientes a clases jerárquicas distintas. 
+
+29. --> bienvenida.png
+
+---------------------------------------
+Observaciones
+
+>Para poder modificar el archivo hosts en una maquina con linux, es necesario cambiar los permisos de escritura del archivo.
+
+Conclusiones
+
+>Los traits es una solución para la reutilización de código en nuestras clases PHP, ya que nos permiten agrupar por funcionalidad diferentes métodos e implementarlos en las clases.
