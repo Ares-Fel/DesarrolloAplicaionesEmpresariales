@@ -1,0 +1,24 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+CREANDO LAS PRIMERAS VISTAS
+
+Al ejecutar la pagina gestorlaravel.com observamos que se ha creado un Inicio, Login, Register en la cabecera de la pagina
+y un mesaje central de inicio de sesion
+
+La ruta gestorlaravel.com/validacion/inicio
+img adjunta--> inicion.png
+La ruta gestorlaravel.com/validacion/recuperar
+img adjunta--> vistaRecuperar.png
+Problema de rutas gestorlaravel.com/validacion/validacion/recuperar
+img adjunta--> errorRuta.png
+---------------------------------------
+Observaciones
+>La ventaja de las pruebas es que nos ayudan a asegurar que siempre nuestro aplicación esté funcionando cuando hagamos algun cambio.
+>El bloque de codigo de authenticate handle nos deriva siempre a validacion/inicio si es que no hay un usuario logueado. Aunque podemos borrarlo(mientras) para poder trabajar en el codigo
+>Al intetnar entrar a la vista recuperar mediante el boton recuperar contrasena, se vio que la ruta se repetia (gestorlaravel/validacion/validacion/recuperar) por tanto devolvia un error 
+
+Conclusiones
+>Authenticate permite el logeo del usuario, por tanto siempre nos redirecciona a un forulario de logeo.
+>La creacion de rutas nos permite especificar que rutas vamos a asignarle a determinado controlador, para que pueda cargarse.
+>No es posible ingresar a una ruta no especificada en nestro proyecto, siempre nos devolvera como no encontrado.
+>Podemos reutilizar el codigo de las vista de errores que tenemos por defecto para mostrar el error 404 que queremos mostrar
