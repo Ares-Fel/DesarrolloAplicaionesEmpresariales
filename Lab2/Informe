@@ -14,7 +14,12 @@ Los rasgos («traits» en inglés) son un mecanismo de reutilización de código
 Observaciones
 
 >Para poder modificar el archivo hosts en una maquina con linux, es necesario cambiar los permisos de escritura del archivo.
+>La ubicacion de del archivos hosts y httpd-vhosts varian entre los sistemas operativos que se esten usando.
 
 Conclusiones
 
+>Agregar el nombre de dominio GestorLaravel en nuestro archivo hosts, facilita el uso de rutas y se ve mas presentable
+>Para poder ver nuestro gestorImagenes, se puede cambiar el ServerName para que ya no ejecute la pagina de inicio de Apache, sino la de nosotros.
 >Los traits es una solución para la reutilización de código en nuestras clases PHP, ya que nos permiten agrupar por funcionalidad diferentes métodos e implementarlos en las clases.
+>Cada uno de los metodos en los controladores tienen un retorno, en este caso se coloco un retorno de mensajes, haciendo referencia a la accion que realiza su controlador. 
+>Definir las cardinalidades entre los modelos que se ha creado nos permite tener limitantes al momento de crear registros.

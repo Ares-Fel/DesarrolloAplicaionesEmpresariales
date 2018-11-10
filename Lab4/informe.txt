@@ -1,0 +1,14 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+CREANO LAS PRIMERAS VISTAS
+
+Al ejecutar la pagina gestorlaravel.com observamos que se ha creado un Inicio, Login, Register en la cabecera de la pagina
+y un mesaje central de inicio de sesion
+
+La ruta gestorlaravel.com/validacion/inicio
+img adjunta--> inicion.png
+---------------------------------------
+Observaciones
+>La ventaja de las pruebas es que nos ayudan a asegurar que siempre nuestro aplicación esté funcionando cuando hagamos algun cambio.
+Conclusiones
+>La creacion de rutas nos permite especificar que rutas vamos a asignarle a determinado controlador, para que pueda cargarse.
