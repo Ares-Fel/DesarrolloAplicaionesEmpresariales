@@ -1,0 +1,46 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+MIGRACION BASE DE DATOS
+
+Creamos las tablas para fotos y albumes
+img adjunta--> migracion.png
+
+Verificamos que se hayan creado correctamente
+img adjunta--> migracionArchivos.png
+
+Usamos el comando php artisan migrate para migrar las tablas
+img adjunta--> migrarTablas.png
+
+Vemos que las tablas se crearon correctamente en nuestra base de datos gestorimagenes.
+img adjunta--> tablasBD.png
+
+Se ha creado correctamente los seeders de Albumes, Fotos, Usuarios
+img adjunta--> seeders.png
+
+Explore la base de datos. Que sucedio?
+-Las tablas se llenaron con registros, los usuarios se completaron hasta 50 registros, comparandolo con fotos y albumes que se llenaron con valor aleatorio.
+
+El usuario usado es: email0@test.com
+El password usado es: pass0
+img adjunta--> login.png
+
+Llenamos los campos registro con nuestros nombres
+img adjunta--> registro.png
+
+Coprobamos que el nuevo usuario se agregue ala BD gestorimagenes tabla usuarios
+img adjunta--> registroBD.png
+
+En la consola creamos el nuevo request para la contrasena
+img adjunta--> requestContrasena.png
+
+---------------------------------------
+
+Observaciones
+
+>Usar la version de MySQL 5.7 --- PHP 5.6 --- para evitar problemas al momento de migrar la base de datos.
+>Situarnos siempre en la carpeta creada por composer, en este caso GestorImagenes para correr los comandos de artisan
+>Asegurarse de tener configuradas correctamente el usuario y el password de nuestra base de datos para la conexion
+
+Conclusiones
+
+
