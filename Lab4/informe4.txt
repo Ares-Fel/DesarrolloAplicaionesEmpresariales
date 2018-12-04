@@ -37,12 +37,14 @@ img adjunta--> requestContrasena.png
 
 Observaciones
 
->Usar la version de MySQL 5.7 --- PHP 5.6 --- para evitar problemas al momento de migrar la base de datos.
->Situarnos siempre en la carpeta creada por composer, en este caso GestorImagenes para correr los comandos de artisan
->Asegurarse de tener configuradas correctamente el usuario y el password de nuestra base de datos para la conexion
+	>Usar la version de MySQL 5.7 --- PHP 5.6 --- para evitar problemas al momento de migrar la base de datos.
+
+	>Situarnos siempre en la carpeta creada por composer, en este caso GestorImagenes para correr los comandos de artisan
+
+	>Asegurarse de tener configuradas correctamente el usuario y el password de nuestra base de datos para la conexion
 
 Conclusiones
 
->Podemos usar la linea de comandos para crear nuevos requst en nuestro proyecto
+	>Podemos usar la linea de comandos para crear nuevos requst en nuestro proyecto
 
 

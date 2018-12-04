@@ -1,0 +1,27 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+MIGRACION BASE DE DATOS
+
+Verificamos que se muestre la pantall de modificar perfil
+img adjunta--> actualizar perfil.png
+
+Vemos que el mensaje de success se muestra cuando damos clic a guardar cambios
+img adjunta--> CambiosHechos.png
+
+Se listan los albumes creados (solo como vistas) aunque aun no tenga la funcionalidad
+img adjunta--> listaAlbumes.png
+
+Se muestra la pagina de fotos aunque aun no se han cargado fotos.
+img adjunta--> mostrarFoto.png
+
+---------------------------------------
+
+Conclusiones
+
+	>La funcion getEditarPerfil, hacemos el cambio de su retorno para que nos muestre la vista que deseamos en este caso es la de actualizar perfil.
+	>La creacion de request se aplica para Mostra fotos y la de editar perfil, que son las dos funcionalidades que se modificaran en este laboratorio
+	>Cambiamos la accion a realizar en el formulario de actualizar perfil, como tambien hacemos el cambio de cada uno delos valores de los campos
+	>La referencia (la ruta) en mostrar fotos debe indicarse como ruta de albumes
+	>Notamos que si variamos el id de una foto y sobrepasa la cantidad de fotos que contiene un album, nos da el mensaje de forbidden.
+
+
