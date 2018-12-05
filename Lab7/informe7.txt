@@ -1,0 +1,34 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+
+Vemos que al nos muetra un mensaje debido a que no tenemos ningun algum creado.
+imagen --> mensaje.png
+
+Al hacer clic a crear album vemos que nos genera un formulario donde pondremos el nombre del album y una breve descripcion
+imagen --> crearAlbum.png
+
+Cuando se crea de forma correcta un album nos indicaran mediatne un mensaje y lo podremos veren la misma pagina
+imagen --> albumCreado.png
+
+Vemos que se muestra el formulario para llenar los nuevos datos la foto a crear
+imagen --> nuevaFoto.png
+
+Aqui ya vems que la imagen que cargamos se subio a nuestro servidor local, con su nombre y descripcion orresponiente.
+imagen --> fotoSubida.png
+
+Si verificamos la imagen en nuestro servidor local, en nuestra carpeta public -> img encontraremos la imagen guardada
+imagen --> verificarImg.png
+
+---------------------------------------
+
+
+Conclusiones
+
+	>Al crear los request en nuestro proyecto establecemos reglas para el uso de los datos
+	>El metodo de crear foto debe manejar tambien el id del album, porque necesita conocer a quien va a pertenecer.
+	>Ahora el id que envia la vista se obtiene desde la url de la vista.
+	>Al igual que en todos los request creado vemos que para crear una foto nececsitamos un id que se jala desde albumes tambien nombre, descripcion y una imagen cargada, nos inddica que la imagen debe tener un tamano maximo de 20mb
+	>Debemos notarque al momento de crear una foto, vemos que en la url se muestra el id del album (en este caso 327), este mismo sera jalado para que la foto se guarde en ese album.
+	>Podemos verificar la imagen que subimos, entrando en la carpeta public de nuestro servidor local.
+
+
