@@ -14,11 +14,11 @@ Alumno: Flores Bellido Angel Jose
 
 5. Explique línea a línea la funcionalidad del código mostrado en la función.
 	Linea 1:Se obtiene la informacion de una foto
-	Linea 1:Obtenemos la ruta de la foto
-	Linea 1:Comprobamos si el archivo de la ruta existe
-	Linea 1:Borramos la ruta
-	Linea 1:Borramos la foto
-	Linea 1:Redirecciona a la vista d fotos, con el mensaje de eliminacion.
+	Linea 2:Obtenemos la ruta de la foto
+	Linea 3:Comprobamos si el archivo de la ruta existe
+	Linea 4:Borramos la ruta
+	Linea 5:Borramos la foto
+	Linea 6:Redirecciona a la vista d fotos, con el mensaje de eliminacion.
 
 
 

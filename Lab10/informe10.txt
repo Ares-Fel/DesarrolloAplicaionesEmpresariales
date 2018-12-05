@@ -1,0 +1,33 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+
+1.Anote los detalles más resaltantes del código anterior:(pregunta 5)
+	Aqui verifica la existencia de fotos entro de un album, si es asi entonces elimina las fotos directamente, para luego eliminar el album seleccionado, si no encontrara fotos entonces el album se elimna directamente.
+
+
+El orden y ubicacion de los albumes ha cambiado
+imagen --> albumesOrdenados.png
+
+El orden y ubicacion de las fotos ha cambiado
+imagen --> fotosOrdenadas.png
+
+El error de la tabla usuario
+imagen --> error.png
+
+Solucion cambiando users por usuarios en el archivo de migraciones.
+imagen --> errorSolucionado.png
+
+---------------------------------------
+
+
+Conclusiones
+
+	>Implementar mejoras o corregir detalles en una aplicacion hace que esta se vea mas sofisticada, aunque los detalles sean poco visibles siempre importan.
+	>La presentacion y orden denuestra aplicacion hace que tenga un aspecto mas amigable y agraddable para su uso.
+	>Se modifico metodo de borrar albumes para que tambien se elimine las fotos guardadas en la tabla de la base de datos que pertencia a ese album.
+	>Con la realimentacion de la base de datos hacemos un rollback de nuestras migraciones y luego las volvemos a ejecutar. Este comando recrea toda nuestra base de datos
+
+
+
+
+
