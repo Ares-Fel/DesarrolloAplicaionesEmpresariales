@@ -20,18 +20,18 @@ Alumno: Flores Bellido Angel Jose
 6. Explique Línea a línea lo que el código pretende hacer:
 	Linea 1:Obtenemos la informacion de foto con el id
 	Linea 2:Establecemos el nuevo nombre de la foto del campo(actualizado)
-	Linea 2:Establecemos la nueva descripcion de la foto del campo(actualizado)
+	Linea 3:Establecemos la nueva descripcion de la foto del campo(actualizado)
 	linea 4:Comparamos si la foto tiene una imgaen cargada
-	linea 4:Guarde en una variable imagen el archivo imagen
-	linea 4:Guarda la ruta
-	linea 4:Encripata el nombre de la imagen
-	linea 4:Mueve la imagen a la ruta
-	linea 4:Captura la ruta anterior
-	linea 4:Compara si la ruta anterior existe
-	linea 4:Elimina la ruta anterior
-	linea 4:Se establece la propiedad ruta de foto
-	linea 4:Guarda la foto
-	linea 4:Muestra la foto de  la vista ya editada.
+	linea 5:Guarde en una variable imagen el archivo imagen
+	linea 6:Guarda la ruta
+	linea 7:Encripata el nombre de la imagen
+	linea 8:Mueve la imagen a la ruta
+	linea 9:Captura la ruta anterior
+	linea 10:Compara si la ruta anterior existe
+	linea 11:Elimina la ruta anterior
+	linea 12:Se establece la propiedad ruta de foto
+	linea 13:Guarda la foto
+	linea 14:Muestra la foto de  la vista ya editada.
 
 7. Desde la línea 69 (el bloque if), ¿por qué tiene que verificarse que la ruta exista?. Es necesario la verificación
 	Verifica que exista para que pueda eliminarla.

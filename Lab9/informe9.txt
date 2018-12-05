@@ -1,0 +1,45 @@
+Alumno: Flores Bellido Angel Jose
+---------------------------------------
+1. ¿Será necesario usar un método getEliminarAlbum?
+	No es necesario, porque no necesitamos una vista para hacerlo, quiza solo una confirmacion.
+
+2. Explique: ¿Qué hacen las dos funciones importantes en este request?
+	La primera obtie el usuario el id, id de la foto, encuentra el id del album perteneciente al usuario, luego si existe retorna true.
+	La segunda verifica que el id exista en fotos.
+
+4. Investigue: Cuál es la finalidad de la función unlink, file_exists y realpath.
+	unlink --> Elimina segun un nombre de archivo.Se generará un error de nivel E_WARNING si se produce un error. Retorna true(si se ha eliminado) o false
+	file_exists --> Comprueba si existe un fichero o directorio. Retorno true o false.
+	realpath --> Devuelve el nombre de la ruta absoluta canonizado. Retorna false si el ficheo no existe
+
+5. Explique línea a línea la funcionalidad del código mostrado en la función.
+	Linea 1:Se obtiene la informacion de una foto
+	Linea 1:Obtenemos la ruta de la foto
+	Linea 1:Comprobamos si el archivo de la ruta existe
+	Linea 1:Borramos la ruta
+	Linea 1:Borramos la foto
+	Linea 1:Redirecciona a la vista d fotos, con el mensaje de eliminacion.
+
+
+
+El album principal fue borrado.
+imagen --> borrarAlbum.png
+
+Aqui vemos como la funcionalidad e eliminar esta correcta
+imagen --> antesdeEliminar.png
+imagen --> despuesdeeliminar.png
+
+---------------------------------------
+
+
+Conclusiones
+
+	>Nos damos cuenta que para ambos casos en fotos y albumes no necesitamos el metodo getEliminar...() por la misma razon de que seria inecesaria una nueva vista.
+	>La implementacion del CRUD es importante para el manejo de la informacion, como vimo en el proyecto gestor imagenes, realizamos el mantenimiento para los albume, fotos.
+	>Aclarar que en todos los metodoa para realizar el CRUD el uso del identificador 'id' es indispensable para poder ubicar y relacionar los diferentes elementos
+
+
+
+
+
+
