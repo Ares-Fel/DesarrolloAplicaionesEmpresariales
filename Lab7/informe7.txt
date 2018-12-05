@@ -1,34 +1,71 @@
 Alumno: Flores Bellido Angel Jose
 ---------------------------------------
 
-Vemos que al nos muetra un mensaje debido a que no tenemos ningun algum creado.
-imagen --> mensaje.png
+1. ¿Que hicimos al agregar esa linea?
+	Al agregarla estamos creando un nuevo link para editar un album, pasandole el id de es album.
 
-Al hacer clic a crear album vemos que nos genera un formulario donde pondremos el nombre del album y una breve descripcion
-imagen --> crearAlbum.png
+2. ¿De qué se encarga la función authorize() en este Request?
+	Se usa generalmente para autorizar la solicitud basándose en alguna regla que le gustaría respetar. En este caso se ancarga de verificar que el id exista.
 
-Cuando se crea de forma correcta un album nos indicaran mediatne un mensaje y lo podremos veren la misma pagina
-imagen --> albumCreado.png
+3. ¿Qué se hizo en el código mostrado?
+	Agrega los nuevos datos de los campos actualizados. 
 
-Vemos que se muestra el formulario para llenar los nuevos datos la foto a crear
-imagen --> nuevaFoto.png
+4. ¿Qué se hizo en esta función?
+	Al actualizar la foto se le pasara el id, nos mostrara solamente la foto a actualizar segun el id.
 
-Aqui ya vems que la imagen que cargamos se subio a nuestro servidor local, con su nombre y descripcion orresponiente.
-imagen --> fotoSubida.png
+5. ¿Qué estamos haciendo en las dos funciones principales de este Request?
+	Estamos obteniendo el usuario, el id, el id de la foto y comprobando que el id del usuario se el id capturado.
+	En la segunda funcion estamos pidiendo que los campos id exista en fotos, campo nombre no debe estar vacio igual para la descripcion y que la imagen subida no pese mas de 20mb.
 
-Si verificamos la imagen en nuestro servidor local, en nuestra carpeta public -> img encontraremos la imagen guardada
-imagen --> verificarImg.png
+6. Explique Línea a línea lo que el código pretende hacer:
+	Linea 1:Obtenemos la informacion de foto con el id
+	Linea 2:Establecemos el nuevo nombre de la foto del campo(actualizado)
+	Linea 2:Establecemos la nueva descripcion de la foto del campo(actualizado)
+	linea 4:Comparamos si la foto tiene una imgaen cargada
+	linea 4:Guarde en una variable imagen el archivo imagen
+	linea 4:Guarda la ruta
+	linea 4:Encripata el nombre de la imagen
+	linea 4:Mueve la imagen a la ruta
+	linea 4:Captura la ruta anterior
+	linea 4:Compara si la ruta anterior existe
+	linea 4:Elimina la ruta anterior
+	linea 4:Se establece la propiedad ruta de foto
+	linea 4:Guarda la foto
+	linea 4:Muestra la foto de  la vista ya editada.
+
+7. Desde la línea 69 (el bloque if), ¿por qué tiene que verificarse que la ruta exista?. Es necesario la verificación
+	Verifica que exista para que pueda eliminarla.
+
+8. ¿Qué hace el código de la vista?
+	nos muestra un mensaje de que la foto fue editada correctamente
+
+
+Se hizo la prueba de dejar el campo nombre sin llenar para verificar que realmete llenar el campo es requerido para poder actualizar un album
+imagen --> required.png
+
+Vemos que al actualizar llenando todos los campos de nombre y descripcion la actualizacion se ejecuta correctamente
+imagen --> actualizarAlbum.png
+
+El formulario que vemos es de actualziar una foto.
+imagen --> vistaActualizar.png
+
+Vemos que la foto anterior fue reemplazada.
+imagen --> fotoActualizada.png
 
 ---------------------------------------
 
 
 Conclusiones
 
-	>Al crear los request en nuestro proyecto establecemos reglas para el uso de los datos
-	>El metodo de crear foto debe manejar tambien el id del album, porque necesita conocer a quien va a pertenecer.
-	>Ahora el id que envia la vista se obtiene desde la url de la vista.
-	>Al igual que en todos los request creado vemos que para crear una foto nececsitamos un id que se jala desde albumes tambien nombre, descripcion y una imagen cargada, nos inddica que la imagen debe tener un tamano maximo de 20mb
-	>Debemos notarque al momento de crear una foto, vemos que en la url se muestra el id del album (en este caso 327), este mismo sera jalado para que la foto se guarde en ese album.
-	>Podemos verificar la imagen que subimos, entrando en la carpeta public de nuestro servidor local.
+	>Como vimos en el laboratorio se hacen reglas para pedir (required) al usuario ingresar el valor requerido y no quede en blanco los campos
+	>Para poder controlar los avisos o alertas de una accion, incluimos una verificacion que de ser correcta nos mandara el mensaje correspondiente.
+	>Nos damos cuenta que el mantenimiento de de fotos o albumes es el mismo, a excepcion que cambie algunos nombre vistas o rutas y variables
+	>mostrar un mensaje de que una accion se ha realizado ayua mucho al usuario a interpretar que ha sucedido.
+	>Las imagenes se guardan por defecto en una carpeta img dentro de la carpteta public, por ahora como usamos un localhost tenderemos esas rutas como raiz.
+
+
+
+
+
 
 
